@@ -4,5 +4,3 @@
   (:nicknames #:hw))
 
 (in-package #:hello-world)
-
-(format t "Hello, World!")
