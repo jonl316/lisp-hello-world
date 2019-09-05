@@ -4,3 +4,5 @@
   (:nicknames #:hw))
 
 (in-package #:hello-world)
+
+(defun hello-world () "Hello, World!")
