@@ -1,0 +1,40 @@
+Hello, These are the errors that I've beeng getting when trying to run the tests.
+
+Command:
+
+$ sbcl --load hello-world-test.lisp --quit
+
+
+This is SBCL 1.4.16.debian, an implementation of ANSI Common Lisp.
+More information about SBCL is available at <http://www.sbcl.org/>.
+
+SBCL is free software, provided as is, with absolutely no warranty.
+It is mostly in the public domain; some portions are provided under
+BSD-style licenses.  See the CREDITS and COPYING files in the
+distribution for more information.
+To load "lisp-unit":
+  Load 1 ASDF system:
+    lisp-unit
+; Loading "lisp-unit"
+
+; in: LAMBDA ()
+;     (HELLO-WORLD:HELLO-WORLD)
+; 
+; caught STYLE-WARNING:
+;   undefined function: HELLO-WORLD:HELLO-WORLD
+; 
+; compilation unit finished
+;   Undefined function:
+;     HELLO-WORLD:HELLO-WORLD
+;   caught 1 STYLE-WARNING condition
+ | Execution error:
+ | The function HELLO-WORLD:HELLO-WORLD is undefined.
+ |
+HELLO-WORLD-TEST: 0 assertions passed, 0 failed, and an execution error.
+
+Unit Test Summary
+ | 0 assertions total
+ | 0 passed
+ | 0 failed
+ | 1 execution errors
+ | 0 missing tests
